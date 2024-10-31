@@ -1,0 +1,54 @@
+.check-column {
+    width: 1.1rem;
+}
+.check-column .reorder-handle {
+    cursor: n-resize;
+    display: none;
+}
+
+
+.column-order {
+    width: 2.3rem;
+}
+
+
+.help-text {
+    color: #777;
+    font-size: 0.75rem;
+}
+
+
+.menu_order_value {
+    max-width: 100px;
+    -moz-appearance: textfield;
+    width: 100%;
+}
+.menu_order_value::-webkit-outer-spin-button,
+.menu_order_value::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.post-reorder-table tr:hover .check-column .reorder-handle {
+    display: inline-block;
+}
+.post-reorder-table > tbody > .ui-placeholder {
+    background-color: rgba(255,238,109,0.5);
+}
+.post-reorder-table > tbody > .ui-sortable-helper {
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+
+.rd-postorder-notice-popup.is-dismissible,
+.wp-core-ui .rd-postorder-notice-popup.is-dismissible {
+    bottom: 20px;
+    left: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    min-width: 200px;
+    position: fixed;
+    z-index: 10000;
+}
